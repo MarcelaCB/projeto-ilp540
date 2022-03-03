@@ -1,0 +1,74 @@
+body {
+height: 100px;
+width: 100px;
+}
+header{
+    display: block;  
+}
+h1 {
+display: block;
+font-size: 32px;
+margin-block-start: 21,44px;
+margin-block-end: 21,44px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold; 
+text-align: center;
+}
+div {
+width: 300px;
+padding: 50px;
+box-sizing: border-box;
+background-color: dodgerblue;
+}
+nav {
+display: block;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;   
+}
+p {
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px    
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+label {
+cursor: default;
+}
+input[type=text] {
+width: 130px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 12px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+width: 100px;
+}
+img {
+float:left;
+}
+footer {
+display: block;
+}
