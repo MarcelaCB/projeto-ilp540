@@ -1,74 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
-height: 100px;
-width: 100px;
+    display: block;
+    font-size: 10px;
+    width: 100px;
+    height: auto;
 }
-header{
-    display: block;  
-}
-h1 {
-display: block;
-font-size: 32px;
-margin-block-start: 21,44px;
-margin-block-end: 21,44px;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
-font-weight: bold; 
-text-align: center;
-}
-div {
-width: 300px;
-padding: 50px;
-box-sizing: border-box;
-background-color: dodgerblue;
+.header h1 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 40px;
+    box-sizing: border-box;
 }
 nav {
-display: block;
+    border-spacing: 0;
+    border-collapse: collapse
 }
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-li{
+li {
     display: list-item;
-    text-align: -webkit-match-parent;   
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
 }
 p {
-    display: block;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px    
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 form {
     display: block;
     margin-top: 0em;
 }
-label {
-cursor: default;
-}
 input[type=text] {
-width: 130px;
-box-sizing: border-box;
-border: 2px solid #ccc;
-border-radius: 4px;
-font-size: 12px;
-background-color: white;
-background-position: 10px 10px;
-background-repeat: no-repeat;
-padding: 12px 20px 12px 40px;
-transition: width 0.4s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(searchicon.png);
+    background-repeat: no-repeat;
+    padding: 12px 20px;
 }
-input[type=text]:focus {
-width: 100px;
-}
-img {
-float:left;
+.figure {
+    display: inline-block;
 }
 footer {
-display: block;
+    display: table-cell;
+    text-indent: initial;
+    margin: auto;
 }
