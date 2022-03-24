@@ -1,69 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
-body {
-    display: block;
-    font-size: 12px;
-    width: 100px;
-    height: auto;
-}
-.header, h1 {
+body{
+    font-size: 100%;
+    background-image: url(../img/tela.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
     text-align: center;
-    color:lightgray;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    font-weight: 500;
-    line-height: 40px;
-    box-sizing: content-box;
+    top: 0;
+    background-size: cover;
 }
-nav {
-    border-spacing: 0;
-    border-collapse: collapse
+
+.cabecalho{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
 }
-ul {
+
+.cabecalho-imagem{
+    height: 75px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.conteudo{
+    margin-bottom: 20px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+nav{
     display: block;
-    list-style-type: disc;
-    margin-block-start: 0px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
-li {
-    display: list-item;
+
+nav a{
+    color:dodgerblue;
 }
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-p {
-    margin-top: 1px;
-    margin-bottom: 18px;
-}
-form {
+
+form{
     display: block;
     margin-top: 0em;
 }
-input[type=text] {
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    background-color: white;
-    background-repeat: no-repeat;
-    padding: 10px 20px;
+
+label{
+    cursor: default;
 }
-.figure {
-    display: inline-block;
+
+input, legend{
+   padding: 2px 5px;
+    border-radius: 3px;   
 }
-footer {
-    display: table-cell;
-    text-indent: initial;
-    margin: auto;
+
+img, p{
+    margin:0;
+    padding: 0;
+    justify-content: center;
+}
+
+.rodape{
+    height: 48px;
+    display: flex;
+    margin: 0 auto;
 }
