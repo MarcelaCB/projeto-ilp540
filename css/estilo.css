@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction:row;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 0px;
 }
 
@@ -36,7 +36,7 @@ body{
 }
 
 .cabecalho-menu{
-    display: flex;
+    display:table-caption;
     gap: 30px;
 }
 
@@ -54,7 +54,7 @@ body{
 
 .conteudo-principal{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-around;
 }
 

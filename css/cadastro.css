@@ -44,29 +44,29 @@ input, button{
     text-align: center;
 }
 
-.campo{
+.valid-feedback{
     margin-bottom: 1em;
 }
 
-.campo label{
+.valid-feedbackmpo label{
     margin-bottom: 0.2em;
     color: #000;
     display: block;
 }
 
-.fieldset.grupo .campo{
+.fieldset.grupo .valid-feedback{
     float: left;
     margin-right: 1em;
 }
 
-.campo input[type="text"], .campo input[type="date"], .campo input[type="tel"], .campo input[type="email"], .campo input[type="password"]{
+.valid-feedback input[type="text"], .valid-feedback input[type="date"], .valid-feedback input[type="tel"], .valid-feedback input[type="email"], .valid-feedback input[type="password"]{
     padding: 0.2em;
     border: 0.2em solid #000 ;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
-.campo input:focus{
+.valid-feedback input:focus{
     background: #f0f8ff;
 }
 
