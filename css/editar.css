@@ -40,44 +40,53 @@ body{
     justify-content: center;
 }
 
+.needs-validation{
+    display: block;
+}
+
 input, button{
     border-radius: 0;
+    padding: 2px 2px;
     text-align: center;
 }
 
 .valid-feedback{
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
-.valid-feedback label{
-    margin-bottom: 0.2em;
+.col-md-4 mb-3{
+    margin-bottom: 3em;
+}
+
+.col-md-4 mb-3 label{
+    margin-bottom: 0.3em;
     color: #000;
     display: block;
 }
 
-.fieldset.grupo .valid-feedback{
+.fieldset.grupo .col-md-4 mb-3{
     float: left;
-    margin-right: 1em;
+    margin-right: 3em;
 }
 
-.valid-feedback input[type="text"], .valid-feedback input[type="date"], .valid-feedback input[type="tel"], .valid-feedback input[type="email"], .valid-feedback input[type="password"]{
+.col-md-4 mb-3 input[type="text"], .col-md-4 mb-3 input[type="date"], .col-md-4 mb-3 input[type="tel"], .col-md-4 mb-3 input[type="email"], .col-md-4 mb-3 input[type="password"]{
     padding: 0.2em;
     border: 0.2em solid #000 ;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
-.valid-feedback input:focus{
+.col-md-4 mb-3 input:focus{
     background: #f0f8ff;
 }
 
 .botao{
-    font-size: 2em;
+    font-size: 3em;
     background: #595959;
     border: 0;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     color: #ffffff;
-    padding: 0.2px 0.1px;
+    padding: 0.3px 0.2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -89,6 +98,6 @@ input, button{
 
 .botao:hover{
     background: #ccb; 
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
