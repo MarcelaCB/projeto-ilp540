@@ -26,9 +26,9 @@
                     <p id="h1" class="conteudo-principal-escrito-titulo">Tapete de Crochê</p>
                     <p class="conteudo-principal-estrito-subtitulo">Bem-Vindo(a), visitante!</p>
                     <nav>
-                        <a href="index.html">Home</a> <br>
-                        <a href="login.html">Login /</a>   
-                        <a href="cadastro.html">Cadastro</a>
+                        <a href="index.php">Home</a> <br>
+                        <a href="login.php">Login /</a>   
+                        <a href="cadastro.php">Cadastro</a>
                     </nav>
                 </div>
                 <form action="#">
@@ -40,7 +40,7 @@
                     </label>
                     <label>
                         <nav>
-                            <a href="editar.html"><img src="img/pessoa.png" alt="pessoa"></a>
+                            <a href="editar.php"><img src="img/pessoa.png" alt="pessoa"></a>
                         </nav>
                     </label>
                     <label>
