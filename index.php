@@ -1,3 +1,12 @@
+<?php
+    $login = $senha = $check = "";
+    if(isset($_COOKIE["login"])){
+        $login = $_COOKIE["login"];
+        $check = "checked";
+    }
+    if(isset($_COOKIE["senha"]))
+        $senha =  $_COOKIE["senha"];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,16 +15,20 @@
     <title>Meu primeiro PHP</title>
 </head>
 <body>
-    <form action="process.php" method="post">
+    <form action="process.php" method="POST">
         <label>
             Login:
-            <input type="text" name="login"  id="login">
-        </label>
+            <input type="text" name="login" id="login" value="<?= $login ?>">
+        </label><br>
         <label>
             Senha:
-            <input type="password" name="senha" id="senha" >
+            <input type="password" name="senha" id="senha" value="<?= $senha ?>">
+        </label><br>
+        <label>
+            <input type="checkbox" name="salvar" <?= $check ?>>
+            Salvar dados de acesso
         </label><br>
         <input type="submit">
-    </form>  
+    </form>
 </body>
 </html>

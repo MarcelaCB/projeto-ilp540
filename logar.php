@@ -9,6 +9,7 @@ include("verifica.php");
     <title></title>
 </head>
 <body>
-    Você está logado
+    Você está logado<br>
+    <a href="sair.php">Sair</a>
 </body>
 </html>
