@@ -10,7 +10,7 @@
 <body>
   <div>
     <p class="h1"><strong>Cadastro</strong></p>
-    <p id="subtitulo">Complete suas informações</p>
+    <p id="subtitulo">Complete suas informaÃ§Ãµes</p>
   </div>
   <br>
   <form>
@@ -70,7 +70,7 @@
       
       <button class="btn btn-primary" type="submit">Salvar</button>
       
-      <button class="btn btn-primary" type="reset" a href="excluir.php">Excluir</button>
+      <button class="btn btn-primary" type="reset">Excluir</button>
 
     </fieldset>
   </form>
