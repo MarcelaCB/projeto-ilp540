@@ -1,21 +1,22 @@
 <?php
 
-$login = $_POST["login"];
+$email = $_POST["email"];
 $senha = $_POST["senha"];
 if(isset($_POST["salvar"])){
-    setcookie("login",$login);
+    setcookie("email",$email);
     setcookie("senha",$senha);
 }
 else{
-    setcookie("login",$login,time()-1);
+    setcookie("email",$email,time()-1);
     setcookie("senha",$senha,time()-1);
 }
 
-if($login == "admin" && $senha == "123"){
-    if(!isset($_SESSION)) session_start();
-    $_SESSION['logar'] = true;
-    header("Location: logar.php");
+if($email == "admin" && $senha == "123"){
+    if(!isset($_SESSION)) 
+        session_start();
+    $_SESSION["logado"] = true;
+    header("Location:logado.php");
 }
 else
-    header("Location: index.php");
+    header("Location:index.php");
 ?>
