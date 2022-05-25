@@ -36,7 +36,7 @@ if(isset($_SESSION["id_usuario1"])){
 	echo ("<p><a href='excluir.php?id=$id'>Excluir a conta</a>");
 }
 else{
-	$nome = "";
+    $nome = "";
     $sexo = "";
     $dt_nascimento = "";
     $cpf = "";
@@ -58,7 +58,7 @@ else{
 <body>
   <div>
     <p class="h1"><strong>Cadastro</strong></p>
-    <p id="subtitulo">Complete suas informações</p>
+    <p id="subtitulo">Complete suas informaÃ§Ãµes</p>
   </div>
   <br>
   <form action="process_cadastrar.php" method="POST">
