@@ -24,13 +24,13 @@
                 <input type="text" name="email" id="email" value="<?= $email ?>" placeholder="E-mail ou Login" required>
             </div>
             <div class="user-box">
-                <input type="password" name="senha" id="senha" value="<?= $senha ?>"  placeholder="Senha" required>
+                <input type="password" name="senha" id="senha" value="<?= $senha ?>" placeholder="Senha" required>
             </div>
             <label>
                 <input type="checkbox" name="salvar" <?= $check ?>>
                 Salvar dados de acesso
             </label><br>
-           
+            
             <a href="https://www.facebook.com/sharer/sharer.php?u=" class="text" >Entrar com Facebook</a>
     
             <a href="https://accounts.google.com/signin" class="text">Entrar com Google</a><br>

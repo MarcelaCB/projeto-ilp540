@@ -3,15 +3,15 @@ include("conecta.php");
 
 if(!isset($_SESSION)) session_start();
 
-if(isset($_SESSION["id_usuario1"])){
+if(isset($_SESSION["id_usuario2"])){
 
 	$aux = "disabled";
 
-	$id = $_SESSION["id_usuario1"];
+	$id = $_SESSION["id_usuario2"];
 
 	try {
 	
-		$sql = "SELECT * FROM `usuarios1`WHERE `id` = '$id'";
+		$sql = "SELECT * FROM `usuarios2`WHERE `id` = '$id'";
 		
 		$res = $conn->query($sql)->fetchAll();
 
@@ -36,7 +36,7 @@ if(isset($_SESSION["id_usuario1"])){
 	echo ("<p><a href='excluir.php?id=$id'>Excluir a conta</a>");
 }
 else{
-    $nome = "";
+	$nome = "";
     $sexo = "";
     $dt_nascimento = "";
     $cpf = "";
@@ -66,7 +66,7 @@ else{
       <div class="form-row">
         <div class="col-md-4 mb-3">
           <label for="validationServer01"><strong>Nome Completo:</strong></label>
-          <input type="text" class="form-control is-valid" id="validationServer01" name="nome"  placeholder="Nome Completo" value="<?=$nome?>" required>
+          <input type="text" class="form-control is-valid" id="validationServer01" name="nome" value="<?=$nome?>"  placeholder="Nome Completo"  required>
           <div class="valid-feedback">
           </div>
         </div><br>
@@ -91,25 +91,25 @@ else{
       <div class="form-row">
         <div class="col-md-6 mb-3">
           <label for="validationServer04"><strong>CPF:</strong></label>
-          <input type="text" class="form-control is-invalid" id="validationServer04" name="cpf" value="<?=$cpf?>" placeholder="CPF" required>
+          <input type="text" class="form-control is-invalid" id="validationServer04" name="cpf" value="<?=$cpf?>"  placeholder="CPF" required>
           <div class="invalid-feedback">
           </div>
         </div><br>
         <div class="col-md-3 mb-3">
           <label for="validationServer05"><strong>Telefone:</strong></label>
-          <input type="tel" class="form-control is-invalid" id="validationServer04"  name="telefone" value="<?=$telefone?>" placeholder="Telefone" required>
+          <input type="tel" class="form-control is-invalid" id="validationServer05"  name="telefone" value="<?=$telefone?>"  placeholder="Telefone" required>
           <div class="invalid-feedback">
           </div>
         </div><br>
         <div class="col-md-3 mb-3">
           <label for="validationServer06"><strong>E-mail:</strong></label>
-          <input type="email" class="form-control is-invalid" id="validationServer05" name="email" value="<?=$email?>" <?=$aux?> placeholder="email@gmail.com" required>
+          <input type="email" class="form-control is-invalid" id="validationServer06" name="email" value="<?=$email?>" <?=$aux?>  placeholder="email@gmail.com" required>
           <div class="invalid-feedback">
           </div>
         </div><br>
         <div class="col-md-3 mb-3">
           <label for="validationServer07"><strong>Senha:</strong></label>
-          <input type="password" class="form-control is-invalid" id="validationServer05" name="senha" value="<?=$senha?>" placeholder="Senha" required>
+          <input type="password" class="form-control is-invalid" id="validationServer07" name="senha" value="<?=$senha?>"  placeholder="Senha" required>
           <div class="invalid-feedback">
           </div>
         </div>
@@ -121,4 +121,4 @@ else{
     </fieldset>
   </form>
 </body>
-</html> 
+</html>

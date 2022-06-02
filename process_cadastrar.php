@@ -12,15 +12,15 @@ $senha = $_POST["senha"];
 if(!isset($_SESSION)) {
 	session_start();
 	
-	if(isset($_SESSION["id_usuario1"])){
-		$id = $_SESSION["id_usuario1"];
+	if(isset($_SESSION["id_usuario2"])){
+		$id = $_SESSION["id_usuario2"];
 		$location = "Location:logado.php";
-		$sql = "UPDATE `usuarios1` SET `nome`='$nome', `sexo`='$sexo', `dt_nascimento`='$dt_nascimento', `cpf`='$cpf', `telefone`='$telefone', `senha`='$senha' WHERE `id`=$id";
+		$sql = "UPDATE `usuarios2` SET `nome`='$nome', `sexo`='$sexo', `dt_nascimento`='$dt_nascimento', `cpf`='$cpf', `telefone`='$telefone', `senha`='$senha' WHERE `id`=$id";
 	}
 	else{
 		$email = $_POST["email"];
 		$location = "Location:index.php";
-		$sql = "INSERT INTO usuarios1 (`id`, `nome`, `sexo`, `dt_nascimento`, `cpf`, `telefone`, `email`, `senha`) VALUES (NULL, '$nome', '$sexo', '$dt_nascimento', '$cpf', '$telefone', '$email','$senha')";
+		$sql = "INSERT INTO usuarios2 (`id`, `nome`, `sexo`, `dt_nascimento`, `cpf`, `telefone`, `email`, `senha`) VALUES (NULL, '$nome', '$sexo', '$dt_nascimento', '$cpf', '$telefone', '$email','$senha')";
 	}
 }
 

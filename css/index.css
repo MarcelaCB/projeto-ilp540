@@ -1,7 +1,7 @@
-html{
+html {
     height: 100%;
 }
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -19,7 +19,7 @@ body{
     top: 0;
     background-size: cover;
 }
-.login-box{
+.login-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,16 +31,16 @@ body{
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
 }
-.login-box h1{
+.login-box h1 {
     margin: 0 0 30px;
     padding: 0;
     color: #000;
     text-align: center;
 }
-.login-box .user-box{
+.login-box .user-box {
     position: relative;
 }
-.login-box .user-box input{
+.login-box .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -51,7 +51,7 @@ body{
     outline: none;
     background: transparent;
 }
-.login-box .user-box label{
+.login-box .user-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -62,13 +62,13 @@ body{
     transition: .5s;
 }
 .login-box .user-box input:focus _ label,
-.login-box .user-box input:valid _ label{
+.login-box .user-box input:valid _ label {
     top: 20px;
     left: 0;
     color: #03e9f4;
     font-size: 12px;
 }
-.login-box form a{
+.login-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -81,19 +81,19 @@ body{
     margin-top: 10px;
     letter-spacing: 1px;
 }
-.login-box a:hover{
+.login-box a:hover {
     background: #03e9f4;
     color: white;
     border-radius: 5px;
     box-shadow: 0 0 4px #03e9f4
-    0 0 8px #03e9f4 
+    0 0 8px #03e9f4
     0 0 10px #03e9f4;
 }
-.login-box a input{
+.login-box a input {
     position: absolute;
     display: block;
 }
-.login-box a input:nth-child(i){
+.login-box a input:nth-child(i) {
     top: 0;
     left: 100%;
     width: 100%;

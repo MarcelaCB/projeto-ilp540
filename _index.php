@@ -9,7 +9,7 @@
     </head>
     <body>
         <header class="cabecalho">
-            <img class="cabecalho-imagem" src="img/capa.png" alt="tapete de crochê">
+            <img class="cabecalho-imagem" src="img/capa.png" alt="tapete de crochï¿½">
             <nav class="cabecalho-menu">
                 <a class="cabecalho-menu-item">FEMININO</a>
                 <a class="cabecalho-menu-item">MASCULINO</a>
@@ -23,7 +23,7 @@
         <main class="conteudo">
             <section class="conteudo-principal">
                 <div class="conteudo-principal-escrito">
-                    <p id="h1" class="conteudo-principal-escrito-titulo">Tapete de Crochê</p>
+                    <p id="h1" class="conteudo-principal-escrito-titulo">Tapete de CrochÃª</p>
                     <p class="conteudo-principal-estrito-subtitulo">Bem-Vindo(a), visitante!</p>
                     <nav>
                         <a href="_index.php">Home</a> <br>
@@ -55,17 +55,17 @@
                 <p>Tapete de fio de malha </p>
             </label>
             <label>
-                <img src="img/tapete_hexágono.png" alt="tapete">
-                <p>Tapete de Crochê</p>
+                <img src="img/tapete_hexï¿½gono.png" alt="tapete">
+                <p>Tapete de CrochÃª</p>
             </label>
             <label>
                 <img src="img/tapete_infantil.png" alt="tapete">
-                <p>Tapete de Crochê de infantil</p>
+                <p>Tapete de CrochÃª de infantil</p>
             </label>
        </main>
 
        <footer class="rodape">
-           <p>Política de Privacidade  <br>   Segurança   <br>    Meus pedidos</p>
+           <p>PolÃ­tica de Privacidade  <br>   SeguranÃ§a   <br>    Meus pedidos</p>
        </footer>
         
         <script src="js/jquery-3.3.1.slim.min.js"></script>

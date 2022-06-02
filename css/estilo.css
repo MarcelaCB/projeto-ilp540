@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     font-size: 100%;
     background-image: url(../img/tela.png);
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
     background-size: cover;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,79 +31,79 @@ body{
     padding: 0px;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     height: 75px;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     display: table-caption;
     gap: 30px;
 }
 
-.cabecalho-menu-item{
+.cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: #fff2e7;
     font-weight: 100;
     font-size: 15px;
 }
 
-.conteudo{
+.conteudo {
     margin-bottom: 20px;
     border-top: 0.4px solid #fff2e7;
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.conteudo-principal-escrito{
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
 }
 
-.conteudo-principal-escrito-titulo{
+.conteudo-principal-escrito-titulo {
     font-family: 'Righteous', cursive;
     font-weight: 100;
     font-size: 40px;
 }
 
-.conteudo-principal-escrito-subtitulo{
+.conteudo-principal-escrito-subtitulo {
     font-family: 'Sarala', sans-serif;
     font-weight: 100;
     font-size: 24px;
 }
 
-nav{
+nav {
     display: block;
 }
 
-nav a{
+nav a {
     color: dodgerblue;
 }
 
-form{
+form {
     display: block;
     margin-top: 0em;
 }
 
-label{
+label {
     cursor: default;
 }
 
-input, legend{
+input, legend {
     padding: 2px 5px;
     border-radius: 3px;
 }
 
-img, p{
+img, p {
     margin: 0;
     padding: 0;
     justify-content: center;
 }
 
-.rodape{
+.rodape {
     height: 48px;
     display: flex;
     margin: 0 auto;

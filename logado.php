@@ -9,8 +9,8 @@
     <title></title>
 </head>
 <body>
-    Você está logado<br>
-    <a href="cadastrar.php">Atualizar dados cadastrais</a>	
+    VocÃª estÃ¡ logado<br>
+    <a href="cadastrar.php">Atualizar dados cadastrais</a>
     <a href="sair.php">Sair</a>
 </body>
 </html>

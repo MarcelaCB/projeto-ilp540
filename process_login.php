@@ -6,7 +6,7 @@ $senha = $_POST["senha"];
 
 try {
 	
-	$sql = "SELECT * FROM `usuarios1` 
+	$sql = "SELECT * FROM `usuarios2` 
 		WHERE `email` = '$email' AND `senha` = '$senha'";
 	
 	$res = $conn->query($sql)->fetchAll();
@@ -28,7 +28,7 @@ try {
 		if(!isset($_SESSION)) 
 			session_start();
 		
-		$_SESSION["id_usuario1"] = $id;
+		$_SESSION["id_usuario2"] = $id;
 		
 		header("Location:logado.php");
     }
