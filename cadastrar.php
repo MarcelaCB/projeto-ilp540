@@ -36,7 +36,7 @@ if(isset($_SESSION["id_usuario2"])){
   
 }
 else{
-	$nome = "";
+    $nome = "";
     $sexo = "";
     $dt_nascimento = "";
     $cpf = "";
