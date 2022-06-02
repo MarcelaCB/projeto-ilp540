@@ -9,7 +9,7 @@
     </head>
     <body>
         <header class="cabecalho">
-            <img class="cabecalho-imagem" src="img/capa.png" alt="tapete de croch�">
+            <img class="cabecalho-imagem" src="img/capa.png" alt="tapete de crochê">
             <nav class="cabecalho-menu">
                 <a class="cabecalho-menu-item">FEMININO</a>
                 <a class="cabecalho-menu-item">MASCULINO</a>
@@ -55,7 +55,7 @@
                 <p>Tapete de fio de malha </p>
             </label>
             <label>
-                <img src="img/tapete_hex�gono.png" alt="tapete">
+                <img src="img/tapete_hexágono.png" alt="tapete">
                 <p>Tapete de Crochê</p>
             </label>
             <label>
