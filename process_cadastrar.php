@@ -8,6 +8,7 @@ $cpf = $_POST["cpf"];
 $telefone = $_POST["telefone"];
 $senha = $_POST["senha"];
 
+echo($sexo);
 
 if(!isset($_SESSION)) {
 	session_start();
@@ -16,21 +17,22 @@ if(!isset($_SESSION)) {
 		$id = $_SESSION["id_usuario2"];
 		$location = "Location:logado.php";
 		$sql = "UPDATE `usuarios2` SET `nome`='$nome', `sexo`='$sexo', `dt_nascimento`='$dt_nascimento', `cpf`='$cpf', `telefone`='$telefone', `senha`='$senha' WHERE `id`=$id";
+		header($location);
 	}
 	else{
 		$email = $_POST["email"];
 		$location = "Location:index.php";
 		$sql = "INSERT INTO usuarios2 (`id`, `nome`, `sexo`, `dt_nascimento`, `cpf`, `telefone`, `email`, `senha`) VALUES (NULL, '$nome', '$sexo', '$dt_nascimento', '$cpf', '$telefone', '$email','$senha')";
+		header($location);
 	}
 }
 
 try {	
 	$conn->exec($sql);		
 } catch(PDOException $e) {
-	echo $sql . "<br>" . $e->getMessage();
+	/*echo $sql . "<br>" . $e->getMessage();*/	
+	header("Location:emailexiste.php");
 }
 $conn = null;
-
-header($location);
 
 ?>

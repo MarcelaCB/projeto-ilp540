@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&display=swap');
+
+* {
+    height: 100;
+    width: 100;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: url(../img/tela.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #000;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+head {
+    letter-spacing: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}

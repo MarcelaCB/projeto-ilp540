@@ -23,7 +23,7 @@ if(isset($_SESSION["id_usuario2"])){
                 $cpf = $row['cpf'];
                 $telefone = $row['telefone'];
                 $email = $row['email'];
-                $senha = $row['senha'];
+                $senha = $row['senha'];     
 	        }
 	    
     	}	
@@ -32,8 +32,8 @@ if(isset($_SESSION["id_usuario2"])){
 	}
 	$conn = null;
 
-    
 	echo ("<p><a href='excluir.php?id=$id'>Excluir a conta</a>");
+  
 }
 else{
 	$nome = "";
@@ -71,12 +71,9 @@ else{
           </div>
         </div><br>
         <div class="col-md-4 mb-3">
-          <label for="validationServer02"><strong>Genero:</strong></label>
-          <label>
-            <input type="radio"  class="form-control is-valid" id="validationServer02" value="<?=$sexo?>"  name="sexo" value="masculino checked" required>Masculino
-          </label>
-          <label>
-            <input type="radio"  class="form-control is-valid"id="validationServer02" value="<?=$sexo?>" name="sexo" value="feminino" required>Feminino
+          <label><strong>Genero:</strong></label>
+            <input type="radio"  class="form-control is-valid"  name="sexo" value="masculino" checked>Masculino
+            <input type="radio"  class="form-control is-valid" name="sexo" value="feminino">Feminino
           </label>
           <div class="valid-feedback">
           </div>

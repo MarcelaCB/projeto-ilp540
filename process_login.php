@@ -7,7 +7,7 @@ $senha = $_POST["senha"];
 try {
 	
 	$sql = "SELECT * FROM `usuarios2` 
-		WHERE `email` = '$email' AND `senha` = '$senha'";
+	    WHERE `email` = '$email' AND `senha` = '$senha'";
 	
 	$res = $conn->query($sql)->fetchAll();
 
