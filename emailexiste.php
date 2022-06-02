@@ -8,6 +8,6 @@
     <title></title>
 </head>
 <body>
-    Usuario cadastrado
+    Usuário cadastrado
 </body>
 </html>
